@@ -1,0 +1,123 @@
+.btn-outline-light:hover {
+    color: #008ed6;
+}
+ul.top-links li {
+    margin-right: 19px;
+    display: inline-block;
+}
+ul.top-links {
+      margin-top: 0;
+      padding-top: 0;
+}
+ul.top-links li a i.fa {
+    color: #fff;
+    /*color: black;*/
+    font-size: 15px;
+    line-height: 31px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    width: 36px;
+    height: 36px;
+        border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border: 2px solid #fff;
+    /*border: 2px solid black;*/
+}
+ul.top-links li a i.fa:hover {
+   /*color: #000000; navbar color words on hover*/
+   color: black;
+}
+
+.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+.row:after,
+.clearfix:after {
+  clear: both; }
+.row,
+.clearfix {
+  zoom: 1; }
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.bread{
+    text-decoration: none;
+}
+
+/*.copy-right{
+    padding-top: 25px;
+}*/
+
+.copy-right-social{
+    padding-top: 0;/*2em 0 1em*/
+    position: relative;
+    /*background-color:rgba(49,79,96,0.84);*/
+    background-color:#212121;
+}
+.bottom-socila-icons {
+    float: right;
+}
+.bottom-socila-icons ul.top-links.two li {
+    /*margin:0;*/
+        margin-right: 1em;
+}
+.bottom-socila-icons ul.top-links.two li a i.fa:hover{
+    color: #2196f3;
+}
+
+@media(max-width:991px){
+  .navbar-toggler {
+    position: relative;
+    float: right;
+    padding: 9px 10px!important;
+    margin-top: 11px!important;
+    margin-right: 2!important;
+    margin-bottom: 8px;
+    background: #fff!important;
+    background-image: none!important;
+    border: 1px solid #fff!important;
+    border-radius: 5px!important;
+  }
+  .navbar-toggler .navbar-toggler-icon{
+    display: block;
+    width: 22px;
+    height: 2px;
+    padding:;
+    border-radius: 1px!important;
+    background-color: #212121!important; /*icon-bar colors*/
+  }
+
+  .navbar-nav {
+    float: none;
+    margin: 8px 0 0 0!important;
+    text-align: center;
+    background: #212121!important; /*color of background on collapse */
+  }
+  
+  .navbar-nav > li{
+    float: none;
+    margin-right: 0;
+  }
+
